@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A5FC6B256B87FD0077BB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5FC6A256B87FD0077BB8E /* AppDelegate.swift */; };
+		19A5FC6D256B87FD0077BB8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5FC6C256B87FD0077BB8E /* SceneDelegate.swift */; };
+		19A5FC6F256B87FD0077BB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5FC6E256B87FD0077BB8E /* ViewController.swift */; };
+		19A5FC72256B87FD0077BB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A5FC70256B87FD0077BB8E /* Main.storyboard */; };
+		19A5FC74256B87FF0077BB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A5FC73256B87FF0077BB8E /* Assets.xcassets */; };
+		19A5FC77256B87FF0077BB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A5FC75256B87FF0077BB8E /* LaunchScreen.storyboard */; };
+		19A5FC82256B87FF0077BB8E /* HYLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5FC81256B87FF0077BB8E /* HYLearningTests.swift */; };
+		19A5FC8D256B88000077BB8E /* HYLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5FC8C256B88000077BB8E /* HYLearningUITests.swift */; };
+		A899D0D1E8E0A13FA93F1149 /* Pods_HYLearning_HYLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D7746AABEAF36C693A37A6 /* Pods_HYLearning_HYLearningUITests.framework */; };
+		D62D47BC81DC689ED76DE749 /* Pods_HYLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3595CE107DC05002865B97D /* Pods_HYLearning.framework */; };
+		EA534D04FCE009417867A885 /* Pods_HYLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A226222D17C825A57261 /* Pods_HYLearningTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A5FC7E256B87FF0077BB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5FC5F256B87FD0077BB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A5FC66256B87FD0077BB8E;
+			remoteInfo = HYLearning;
+		};
+		19A5FC89256B88000077BB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5FC5F256B87FD0077BB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A5FC66256B87FD0077BB8E;
+			remoteInfo = HYLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067FDDEFEC4861E24EC1EDF7 /* Pods-HYLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearningTests.release.xcconfig"; path = "Target Support Files/Pods-HYLearningTests/Pods-HYLearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		08C858AE776A6974DC15CA2A /* Pods-HYLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearning.debug.xcconfig"; path = "Target Support Files/Pods-HYLearning/Pods-HYLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		19A5FC67256B87FD0077BB8E /* HYLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A5FC6A256B87FD0077BB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19A5FC6C256B87FD0077BB8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19A5FC6E256B87FD0077BB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19A5FC71256B87FD0077BB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19A5FC73256B87FF0077BB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A5FC76256B87FF0077BB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19A5FC78256B87FF0077BB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A5FC7D256B87FF0077BB8E /* HYLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A5FC81256B87FF0077BB8E /* HYLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYLearningTests.swift; sourceTree = "<group>"; };
+		19A5FC83256B87FF0077BB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A5FC88256B87FF0077BB8E /* HYLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A5FC8C256B88000077BB8E /* HYLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYLearningUITests.swift; sourceTree = "<group>"; };
+		19A5FC8E256B88000077BB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7478A4E8578F5E53412958 /* Pods-HYLearning-HYLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearning-HYLearningUITests.debug.xcconfig"; path = "Target Support Files/Pods-HYLearning-HYLearningUITests/Pods-HYLearning-HYLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7023A226222D17C825A57261 /* Pods_HYLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A178A46EEE9B6311F160AB5 /* Pods-HYLearning-HYLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearning-HYLearningUITests.release.xcconfig"; path = "Target Support Files/Pods-HYLearning-HYLearningUITests/Pods-HYLearning-HYLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D619FC7B4E3090CCF3FD6B02 /* Pods-HYLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearningTests.debug.xcconfig"; path = "Target Support Files/Pods-HYLearningTests/Pods-HYLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D7746AABEAF36C693A37A6 /* Pods_HYLearning_HYLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLearning_HYLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2118529C8C721D2690DCFD8 /* Pods-HYLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearning.release.xcconfig"; path = "Target Support Files/Pods-HYLearning/Pods-HYLearning.release.xcconfig"; sourceTree = "<group>"; };
+		F3595CE107DC05002865B97D /* Pods_HYLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A5FC64256B87FD0077BB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D47BC81DC689ED76DE749 /* Pods_HYLearning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5FC7A256B87FF0077BB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA534D04FCE009417867A885 /* Pods_HYLearningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5FC85256B87FF0077BB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899D0D1E8E0A13FA93F1149 /* Pods_HYLearning_HYLearningUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A5FC5E256B87FD0077BB8E = {
+			isa = PBXGroup;
+			children = (
+				19A5FC69256B87FD0077BB8E /* HYLearning */,
+				19A5FC80256B87FF0077BB8E /* HYLearningTests */,
+				19A5FC8B256B88000077BB8E /* HYLearningUITests */,
+				19A5FC68256B87FD0077BB8E /* Products */,
+				646BC308AC60347AFEAD7607 /* Pods */,
+				D2EF300C0A6DD4D87E3E8927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19A5FC68256B87FD0077BB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A5FC67256B87FD0077BB8E /* HYLearning.app */,
+				19A5FC7D256B87FF0077BB8E /* HYLearningTests.xctest */,
+				19A5FC88256B87FF0077BB8E /* HYLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A5FC69256B87FD0077BB8E /* HYLearning */ = {
+			isa = PBXGroup;
+			children = (
+				19A5FC6A256B87FD0077BB8E /* AppDelegate.swift */,
+				19A5FC6C256B87FD0077BB8E /* SceneDelegate.swift */,
+				19A5FC6E256B87FD0077BB8E /* ViewController.swift */,
+				19A5FC70256B87FD0077BB8E /* Main.storyboard */,
+				19A5FC73256B87FF0077BB8E /* Assets.xcassets */,
+				19A5FC75256B87FF0077BB8E /* LaunchScreen.storyboard */,
+				19A5FC78256B87FF0077BB8E /* Info.plist */,
+			);
+			path = HYLearning;
+			sourceTree = "<group>";
+		};
+		19A5FC80256B87FF0077BB8E /* HYLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				19A5FC81256B87FF0077BB8E /* HYLearningTests.swift */,
+				19A5FC83256B87FF0077BB8E /* Info.plist */,
+			);
+			path = HYLearningTests;
+			sourceTree = "<group>";
+		};
+		19A5FC8B256B88000077BB8E /* HYLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19A5FC8C256B88000077BB8E /* HYLearningUITests.swift */,
+				19A5FC8E256B88000077BB8E /* Info.plist */,
+			);
+			path = HYLearningUITests;
+			sourceTree = "<group>";
+		};
+		646BC308AC60347AFEAD7607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C858AE776A6974DC15CA2A /* Pods-HYLearning.debug.xcconfig */,
+				E2118529C8C721D2690DCFD8 /* Pods-HYLearning.release.xcconfig */,
+				1E7478A4E8578F5E53412958 /* Pods-HYLearning-HYLearningUITests.debug.xcconfig */,
+				8A178A46EEE9B6311F160AB5 /* Pods-HYLearning-HYLearningUITests.release.xcconfig */,
+				D619FC7B4E3090CCF3FD6B02 /* Pods-HYLearningTests.debug.xcconfig */,
+				067FDDEFEC4861E24EC1EDF7 /* Pods-HYLearningTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2EF300C0A6DD4D87E3E8927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3595CE107DC05002865B97D /* Pods_HYLearning.framework */,
+				D9D7746AABEAF36C693A37A6 /* Pods_HYLearning_HYLearningUITests.framework */,
+				7023A226222D17C825A57261 /* Pods_HYLearningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A5FC66256B87FD0077BB8E /* HYLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A5FC91256B88000077BB8E /* Build configuration list for PBXNativeTarget "HYLearning" */;
+			buildPhases = (
+				4A02C88959A479755D009E72 /* [CP] Check Pods Manifest.lock */,
+				19A5FC63256B87FD0077BB8E /* Sources */,
+				19A5FC64256B87FD0077BB8E /* Frameworks */,
+				19A5FC65256B87FD0077BB8E /* Resources */,
+				0C76A9D66C50438A5A73EF13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYLearning;
+			productName = HYLearning;
+			productReference = 19A5FC67256B87FD0077BB8E /* HYLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19A5FC7C256B87FF0077BB8E /* HYLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A5FC94256B88000077BB8E /* Build configuration list for PBXNativeTarget "HYLearningTests" */;
+			buildPhases = (
+				A6BABB50866E88C4D4FA7CA9 /* [CP] Check Pods Manifest.lock */,
+				19A5FC79256B87FF0077BB8E /* Sources */,
+				19A5FC7A256B87FF0077BB8E /* Frameworks */,
+				19A5FC7B256B87FF0077BB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A5FC7F256B87FF0077BB8E /* PBXTargetDependency */,
+			);
+			name = HYLearningTests;
+			productName = HYLearningTests;
+			productReference = 19A5FC7D256B87FF0077BB8E /* HYLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19A5FC87256B87FF0077BB8E /* HYLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A5FC97256B88000077BB8E /* Build configuration list for PBXNativeTarget "HYLearningUITests" */;
+			buildPhases = (
+				460498DFC30A87702B1EC151 /* [CP] Check Pods Manifest.lock */,
+				19A5FC84256B87FF0077BB8E /* Sources */,
+				19A5FC85256B87FF0077BB8E /* Frameworks */,
+				19A5FC86256B87FF0077BB8E /* Resources */,
+				6F50E2F8B9CFD392CAC2144E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A5FC8A256B88000077BB8E /* PBXTargetDependency */,
+			);
+			name = HYLearningUITests;
+			productName = HYLearningUITests;
+			productReference = 19A5FC88256B87FF0077BB8E /* HYLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A5FC5F256B87FD0077BB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					19A5FC66256B87FD0077BB8E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					19A5FC7C256B87FF0077BB8E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 19A5FC66256B87FD0077BB8E;
+					};
+					19A5FC87256B87FF0077BB8E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 19A5FC66256B87FD0077BB8E;
+					};
+				};
+			};
+			buildConfigurationList = 19A5FC62256B87FD0077BB8E /* Build configuration list for PBXProject "HYLearning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A5FC5E256B87FD0077BB8E;
+			productRefGroup = 19A5FC68256B87FD0077BB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A5FC66256B87FD0077BB8E /* HYLearning */,
+				19A5FC7C256B87FF0077BB8E /* HYLearningTests */,
+				19A5FC87256B87FF0077BB8E /* HYLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A5FC65256B87FD0077BB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A5FC77256B87FF0077BB8E /* LaunchScreen.storyboard in Resources */,
+				19A5FC74256B87FF0077BB8E /* Assets.xcassets in Resources */,
+				19A5FC72256B87FD0077BB8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5FC7B256B87FF0077BB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5FC86256B87FF0077BB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C76A9D66C50438A5A73EF13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYLearning/Pods-HYLearning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYLearning/Pods-HYLearning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYLearning/Pods-HYLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460498DFC30A87702B1EC151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYLearning-HYLearningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A02C88959A479755D009E72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F50E2F8B9CFD392CAC2144E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYLearning-HYLearningUITests/Pods-HYLearning-HYLearningUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYLearning-HYLearningUITests/Pods-HYLearning-HYLearningUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYLearning-HYLearningUITests/Pods-HYLearning-HYLearningUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BABB50866E88C4D4FA7CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYLearningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A5FC63256B87FD0077BB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A5FC6F256B87FD0077BB8E /* ViewController.swift in Sources */,
+				19A5FC6B256B87FD0077BB8E /* AppDelegate.swift in Sources */,
+				19A5FC6D256B87FD0077BB8E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5FC79256B87FF0077BB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A5FC82256B87FF0077BB8E /* HYLearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5FC84256B87FF0077BB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A5FC8D256B88000077BB8E /* HYLearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A5FC7F256B87FF0077BB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A5FC66256B87FD0077BB8E /* HYLearning */;
+			targetProxy = 19A5FC7E256B87FF0077BB8E /* PBXContainerItemProxy */;
+		};
+		19A5FC8A256B88000077BB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A5FC66256B87FD0077BB8E /* HYLearning */;
+			targetProxy = 19A5FC89256B88000077BB8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19A5FC70256B87FD0077BB8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A5FC71256B87FD0077BB8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19A5FC75256B87FF0077BB8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A5FC76256B87FF0077BB8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A5FC8F256B88000077BB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A5FC90256B88000077BB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A5FC92256B88000077BB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C858AE776A6974DC15CA2A /* Pods-HYLearning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW2KRVQHL3;
+				INFOPLIST_FILE = HYLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19A5FC93256B88000077BB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2118529C8C721D2690DCFD8 /* Pods-HYLearning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW2KRVQHL3;
+				INFOPLIST_FILE = HYLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19A5FC95256B88000077BB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D619FC7B4E3090CCF3FD6B02 /* Pods-HYLearningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW2KRVQHL3;
+				INFOPLIST_FILE = HYLearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYLearning.app/HYLearning";
+			};
+			name = Debug;
+		};
+		19A5FC96256B88000077BB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067FDDEFEC4861E24EC1EDF7 /* Pods-HYLearningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW2KRVQHL3;
+				INFOPLIST_FILE = HYLearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYLearning.app/HYLearning";
+			};
+			name = Release;
+		};
+		19A5FC98256B88000077BB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7478A4E8578F5E53412958 /* Pods-HYLearning-HYLearningUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW2KRVQHL3;
+				INFOPLIST_FILE = HYLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYLearning;
+			};
+			name = Debug;
+		};
+		19A5FC99256B88000077BB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A178A46EEE9B6311F160AB5 /* Pods-HYLearning-HYLearningUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW2KRVQHL3;
+				INFOPLIST_FILE = HYLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A5FC62256B87FD0077BB8E /* Build configuration list for PBXProject "HYLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5FC8F256B88000077BB8E /* Debug */,
+				19A5FC90256B88000077BB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A5FC91256B88000077BB8E /* Build configuration list for PBXNativeTarget "HYLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5FC92256B88000077BB8E /* Debug */,
+				19A5FC93256B88000077BB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A5FC94256B88000077BB8E /* Build configuration list for PBXNativeTarget "HYLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5FC95256B88000077BB8E /* Debug */,
+				19A5FC96256B88000077BB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A5FC97256B88000077BB8E /* Build configuration list for PBXNativeTarget "HYLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5FC98256B88000077BB8E /* Debug */,
+				19A5FC99256B88000077BB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A5FC5F256B87FD0077BB8E /* Project object */;
+}
